@@ -3,7 +3,7 @@ HOMEPAGE = "https://www.nongnu.org/avrdude/"
 SECTION = "devel"
 LICENSE = "GPL-2.0-or-later"
 
-LIC_FILES_CHKSUM = "file://COPYING;md5=4f51bb496ef8872ccff73f440f2464a8"
+LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
 inherit cmake gettext
 
