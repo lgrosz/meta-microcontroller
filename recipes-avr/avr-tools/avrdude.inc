@@ -33,8 +33,6 @@ PACKAGECONFIG[parport] = " \
     -DHAVE_PARPORTSPI=OFF,,,,"
 
 SRC_URI = "git://github.com/avrdudes/avrdude.git;protocol=https;branch=main"
-SRCREV = "e599214c9d602ca5ae3450fc23bdaf4266562282"
 S = "${WORKDIR}/git"
-PV = "7.3+git${SRCPV}"
 
 RRECOMMENDS:${PN} += "avr-udev-rules"
